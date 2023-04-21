@@ -15,10 +15,16 @@
 4. Check that your account is funded using https://goerli.voyager.online/
 
 ### Install Starknet CLI
-- Follow instructions [here](https://docs.starknet.io/documentation/getting_started/environment_setup/)
-- Note, for Windows users, the recommendation will be to use WSL2
+1. Follow instructions [here](https://docs.starknet.io/documentation/getting_started/environment_setup/)
+2. Note, for Windows users, the recommendation will be to use WSL2
 
 ### Setup local Starknet account (for declaring and deploying)
-- Setup environment according to https://docs.starknet.io/documentation/getting_started/environment_setup/
-- And then, deploy an account https://docs.starknet.io/documentation/getting_started/environment_setup/ 
-- Fund this deployed account from your wallet which just got your goerli ETH from
+1. Setup environment according to https://docs.starknet.io/documentation/getting_started/environment_setup/
+2. And then, deploy an account https://docs.starknet.io/documentation/getting_started/environment_setup/ 
+3. Fund this deployed account from your wallet which just got your goerli ETH from
+
+
+### Installing Scarb
+1.  Install Scarb by following the instructions here 
+    - https://docs.swmansion.com/scarb/download
+    - https://cairo-book.github.io/ch01-03-hello-scarb.html
