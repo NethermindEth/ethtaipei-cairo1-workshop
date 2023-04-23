@@ -56,7 +56,6 @@
 </tr>
 </table>
 
-
 ## Events
 
 <table>
@@ -78,8 +77,9 @@ fn Transfer(from: ContractAddress, to: ContractAddress, value: u256);
 
 #[event]
 fn Approval(owner: ContractAddress, spender: ContractAddress, value: u256);
-        </pre>
-    </td>
+</pre>
+</td>
+
 </tr>
 </table>
 
@@ -159,7 +159,6 @@ fn transfer(to: ContractAddress, amount: u256) -> bool {...}
 </tr>
 </table>
 
-
 ## Internal function
 
 <table>
@@ -226,7 +225,6 @@ address owner = msg.sender;
 </tr>
 </table>
 
-
 ## Emit events
 
 <table>
@@ -271,3 +269,20 @@ address owner = msg.sender;
     </td>
 </tr>
 </table>
+
+## Compile
+
+```
+scarb build
+```
+
+## Declare
+
+```
+starknet declare --contract <json_file>  --account version_11
+```
+
+## Deploy
+```
+starknet deploy --class_hash <class_hash> --account version_11
+```
